@@ -600,6 +600,20 @@ export class RuleConstants {
           mediaType: MediaType.MOVIE,
           type: RuleType.NUMBER,
         },
+        {
+          id: 50,
+          name: 'diskspace_remaining_mb',
+          humanName: 'Remaining disk space (MB)',
+          mediaType: MediaType.MOVIE,
+          type: RuleType.NUMBER,
+        },
+        {
+          id: 51,
+          name: 'diskspace_total_mb',
+          humanName: 'Total disk space (MB)',
+          mediaType: MediaType.MOVIE,
+          type: RuleType.NUMBER,
+        },
       ],
     },
     {
@@ -622,6 +636,20 @@ export class RuleConstants {
           mediaType: MediaType.SHOW,
           type: RuleType.NUMBER,
           showType: ['show', 'season', 'episode'],
+        },
+        {
+          id: 50,
+          name: 'diskspace_remaining_mb',
+          humanName: 'Remaining disk space (MB)',
+          mediaType: MediaType.SHOW,
+          type: RuleType.NUMBER,
+        },
+        {
+          id: 51,
+          name: 'diskspace_total_mb',
+          humanName: 'Total disk space (MB)',
+          mediaType: MediaType.SHOW,
+          type: RuleType.NUMBER,
         },
         {
           id: 2,
